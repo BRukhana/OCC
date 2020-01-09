@@ -1,0 +1,35 @@
+{
+  "author": "Bhavin Rukhana",
+  "config": {
+    "port": "3000"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "description": "orderServices",
+  "devDependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.16.2",
+    "nconf": "0.8.4",
+    "winston": "^3.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "main": "/app/index.js",
+  "name": "order-update",
+  "publicUrls": [
+    "/ccstorex/custom/v1/order/update"
+  ],
+  "scripts": {
+    "lint": "jshint ./app || rem",
+    "start": "node index.js"
+  },
+  "translations": [
+    {
+      "description": "orderServices",
+      "language": "en",
+      "name": "orderServices"
+    }
+  ],
+  "version": "0.1.0"
+}
